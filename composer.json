@@ -1,0 +1,17 @@
+{
+    "name": "hocn/php-utility",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hocn",
+            "email": "nguyenhoc89@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "hocn\\PHPUtility\\": "src"
+        }
+    }
+}
