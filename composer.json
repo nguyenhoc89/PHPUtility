@@ -16,6 +16,6 @@
     },
 
     "scripts": {
-        "post-install-cmd": "scripts/test.bash"
+        "post-install-cmd": "scripts/test.bat"
     }
 }
