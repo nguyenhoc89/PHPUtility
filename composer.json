@@ -13,5 +13,9 @@
         "psr-4": {
             "hocn\\PHPUtility\\": "src"
         }
+    },
+
+    "scripts": {
+        "post-install-cmd": ""
     }
 }
