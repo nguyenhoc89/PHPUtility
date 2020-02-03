@@ -1,9 +1,9 @@
 <?php
 namespace hocn\PHPUtility;
-use ComposerScriptEvent;
+use Composer\Script\PackageEvent;
 
 class Installer {
-    public static function postPackageInstall(Event $event) {
+    public static function postPackageInstall(PackageEvent $event) {
         echo "Install done";
     }
 }
