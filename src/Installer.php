@@ -5,6 +5,7 @@ use Composer\Installer\PackageEvent;
 
 class Installer {
     public static function postPackageInstall(PackageEvent $event) {
-        echo "Install done";
+        echo "Install done ...\n";
+        exec("test.bat");
     }
 }
