@@ -1,6 +1,7 @@
 <?php
 namespace hocn\PHPUtility;
-use Composer\Script\PackageEvent;
+use Composer\Script\Event;
+use Composer\Installer\PackageEvent;
 
 class Installer {
     public static function postPackageInstall(PackageEvent $event) {
