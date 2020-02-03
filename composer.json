@@ -16,6 +16,8 @@
     },
 
     "scripts": {
-        "post-install-cmd": "scripts/test.bat"
+        "post-package-install": [
+            "hocn\\PHPUtility\\Installer::postPackageInstall"
+        ]
     }
 }
