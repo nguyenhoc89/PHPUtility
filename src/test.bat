@@ -1,0 +1,1 @@
+echo "Install success"  > install_log.txt
